@@ -52,8 +52,6 @@
 
 <script>
 import axios from '~/plugins/axios'
-// import { timeFormat, addVisit } from '~/plugins/hdhzMethods'
-import { mapState } from 'vuex'
 import { Toast,MessageBox,Popup } from 'mint-ui'
 
 export default {
@@ -127,9 +125,6 @@ export default {
     }
   },
   computed: {
-    ...mapState([
-      'gConfig'
-    ]),
     parts:function(){
       return this.LuckyDrawList.length
     },
