@@ -60,7 +60,7 @@ export default {
   layout: 'huodong',
   head () {
     return {
-      title: this.Title
+      title: '转盘'
     }
   },
   data() {
