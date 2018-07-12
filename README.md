@@ -1,8 +1,6 @@
-# {{ name }}
+# 各类活动页集合
 
-> {{ description }}
-
-## Build Setup
+## install & 运行
 
 ``` bash
 # install dependencies
@@ -11,12 +9,11 @@ $ npm install # Or yarn install
 # serve with hot reload at localhost:3000
 $ npm run dev
 
-# build for production and launch server
-$ npm run build
-$ npm start
-
-# generate static project
-$ npm run generate
 ```
 
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+## 目录
+
+* 红包活动页  ~/pages/dh/hb
+* canvas简单仪表盘  ~/pages/dh/jd
+* 行星旋转效果  ~/pages/xx
+* 转盘效果  ~/pages/zp
